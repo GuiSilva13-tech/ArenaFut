@@ -36,7 +36,6 @@ nome.addEventListener('keyup', () => {
 })
 
 usuario.addEventListener('keyup', () => {
-  // Expressão regular para validar e-mail
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
   if (!emailRegex.test(usuario.value)) {
